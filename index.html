@@ -5,36 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-2</title>
     <link rel="stylesheet" href="styles/travel.css">
+
+     <!-- font awesome links -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+ 
 </head>
 <body>
-    <header class="logo">
-       <nav>
-        <img src="Images/Group 40071 (2).png" alt="">
-        <h1 class="nav-title">Travel <span class="text-primary">Days</span></h1>
-            <ul>
-                <li><a href=""><span class="text-primary">Home</span></a></li>
-                <li><a href="">Packages</a></li>
-                <li><a href="">Testimonial</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-                </nav>
-    </header>
 
+    <!-- nav section starts -->
+    <header>
+    <nav>
+         <div class="header">
+                <a href="#" class="logo"><img src="Images/Group 40071 (2).png" alt=""></a>
+                <h1 class="nav-title">Travel <span class="text-primary">Days</span></h1>
+                <div class="header-right">
+                        <a href=""><span class="text-primary">Home</span></a>
+                        <a href="">Packages</a>
+                        <a href="">Testimonial</a>
+                        <a href="">Blog</a>
+                        <a href="">Contact</a>
+                </div>
+              </div>
+     </nav>
+    </header>
+  <!-- nav banner section starts -->
     <section class="header">
         <div class="image-container">
           <img src="Images/Group 13 (1) (1).png" alt="" />
           <div class="overlay">
             <h1 class="image-greet">Explore Your Travel</h1>
             <p class="image-text">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
-            <button class="btn-white">Where Go</button>
-            <button class="btn-white">When</button>
-            <button class="btn-white">Select type</button>
-            <button class="btn-orange">Search</button>
+            <div class="form-site">
+                <form>
+                    <input type="text" placeholder="Where go">
+                    <input type="text" placeholder="When"><i class="fa-solid fa-angle-down"></i>
+                    <input type="text" placeholder="Select type"><i class="fa-solid fa-angle-down"></i>
+                    <input class="btn-header" type="search" name="search" id="" placeholder="find now"><i class="fa-solid fa-magnifying-glass"></i>
+                </form>
+            </div>
           </div>
         </div>
       </section>
-
 
     <!-- <section>
         <div class="row"><img src="Images/Group 13 (1) (1).png" alt=""></div>
@@ -56,6 +67,8 @@
             <div><img src="images/H.jpg" alt=""></div>
         </div>
     </section> -->
+
+
     <!-- popular tours starts here -->
 
     <section class="popular">
@@ -75,5 +88,70 @@
           <img src="Images/Rectangle 4.png" alt="">
         </div>
     </section>
+
+
+    
+
+      <!-- choose your destination starts -->
+      
+       
+      <section>
+        <div class="choose">
+            <h3>Choose Your Destination</h3>
+            <p class="section-description" >Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+        </div>
+
+            <div class="choose-container">
+                <div class="row-1">
+                    <img src="Images/Rectangle 5.png" alt="">
+                    <h4 class="centered">Maldives</h4>
+                    <img src="Images/Rectangle 8.png" alt="">
+                    <h4 class="centered-2">Indonesia</h4>
+                </div>
+                <div class="row-2">
+                    <img src="Images/Rectangle 6.png" alt="">
+                    <h4 class="centered-3">Srilanka</h4>   
+                    <img src="Images/Rectangle 7.png" alt="">
+                    <h4 class="centered-4" >North America</h4>
+                    <img src="Images/Rectangle 9.png" alt="">
+                    <h4  class="centered-5">Kashmir</h4>
+                </div>
+                <div class="row-1">
+                    <img src="Images/Rectangle 11.png" alt="">
+                    <h4 class="centered-6">Bangladesh</h4>
+                    <img src="Images/Rectangle 10.png" alt="">
+                    <h4 class="centered-7">Bandarban</h4>
+                </div>
+            </div>
+      </section>
+
+      
+      <!-- why choose us starts -->
+      
+       
+      <section>
+        <div class="choose">
+            <h3>Why Choose Us</h3>
+            <p class="section-description" >Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+        </div>
+        <div class="why-container">
+            <div class="why">
+                <img src="Images/5-stars.png" alt="">
+                <h3 class="why-title">Handpicked Hotels</h3>
+                <p class="why-description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+            </div>
+            <div class="why-1">
+                <img src="Images/map.png" alt="">
+                <h3 class="why-title">World Class Service</h3>
+                <p class="why-description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor</p>
+            </div>
+            <div class="why-special-why">
+                <img src="Images/tag.png" alt="">
+                <h3 class="why-title">Best Price Guarantee</h3>
+                <p class="why-description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor</p>
+            </div>
+        </div>
+       
+        </section>
 </body>
 </html>
