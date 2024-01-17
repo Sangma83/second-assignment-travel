@@ -76,17 +76,6 @@ body{
   #check {
     display: none;
   }
-  
-  /* .header-right a::after{
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 1px;
-    background-color: red;
-    transition: 0.15s ease-in-out;
-  } */
 
   .open-menu, .close-menu{
     position: absolute;
@@ -204,6 +193,20 @@ body{
     font-weight: 700;
     line-height: normal;
 }
+form #find-me{
+  margin-left: 30px;
+  color: #FFF;
+}
+
+form .find-text {
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
 
 .form-site i{
     position: absolute;
@@ -221,9 +224,10 @@ body{
   .popular {
     display: flex;
     background: #FFF;
-    margin-top: 100px;
-    padding: 130px 200px;
-    gap: 100px;
+    margin-top: 50px;
+    padding: 100px 100px;
+    gap: 80px;
+    margin-bottom: 2px;
 }
 
 .popular-section {
@@ -266,7 +270,7 @@ body{
 }
 
 .popular-section img {
-    height: 100%;
+    height: 80%;
 }
 
 
@@ -278,8 +282,9 @@ body{
     flex-direction: column;
     justify-content: center; 
     align-items: center; 
-    height: 100%; 
-    margin: 0 auto;
+    height: 80%; 
+    margin-bottom: 50px;
+    /* margin: 0 auto; */
 }
 
 .choose h3 {
@@ -290,18 +295,20 @@ body{
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    margin-bottom: 20px;
 }
 
 
 .choose-container {
-    max-width: 1200px; 
+    max-width: 1300px; 
     margin: 0 auto; 
+    
 }
 
 .centered{
     position: absolute;
-    top: 254%;
-    left: 26%;
+    top: 272%;
+    left: 24%;
     color: #FFF;
     text-align: center;
     font-family: Mulish;
@@ -309,11 +316,12 @@ body{
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    
 }
 
 .centered-2{
     position: absolute;
-    top: 254%;
+    top: 272%;
     left: 68%;
     color: #FFF;
     text-align: center;
@@ -326,8 +334,8 @@ body{
 
 .centered-3{
     position: absolute;
-    top: 305%;
-    left: 20%;
+    top: 322%;
+    left: 15%;
     color: #FFF;
     text-align: center;
     font-family: Mulish;
@@ -339,7 +347,7 @@ body{
 
 .centered-4{
     position: absolute;
-    top: 305%;
+    top: 322%;
     left: 45%;
     color: #FFF;
     text-align: center;
@@ -352,8 +360,8 @@ body{
 
 .centered-5{
     position: absolute;
-    top: 305%;
-    left: 74%;
+    top: 322%;
+    left: 80%;
     color: #FFF;
     text-align: center;
     font-family: Mulish;
@@ -365,8 +373,8 @@ body{
 
 .centered-6{
     position: absolute;
-    top: 367%;
-    left: 25%;
+    top: 380%;
+    left: 24%;
     color: #FFF;
     text-align: center;
     font-family: Mulish;
@@ -378,8 +386,8 @@ body{
 
 .centered-7{
     position: absolute;
-    top: 367%;
-    left: 67%;
+    top: 380%;
+    left: 68%;
     color: #FFF;
     text-align: center;
     font-family: Mulish;
@@ -399,26 +407,52 @@ img{
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 5px;
     row-gap: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     gap: 15px;
     
 }
 
 .row-2{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 5px;
-    margin-bottom: 10px;
+    grid-template-columns:350px 580px 350px;
+    grid-gap: 15px;
+    
+}
+
+.row-2 img{
+  width: 100%;
+  height: 350px;
 }
 
 
 /* choose us styles */
 
+
+.choose-us {
+  text-align: center; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  height: 80%; 
+  margin-top: 100px;
+}
+
+.choose-us h3 {
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 20px;
+}
 .why-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
-    padding: 150px;
+    padding: 130px;
     
 }
 
@@ -447,10 +481,6 @@ img{
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
 }
-/* .why-description{
-    color: #757575;
-    
-} */
 
 .why-special-why {
     position: absolute;
@@ -474,21 +504,40 @@ img{
   grid-template-columns: repeat(2, 1fr);
   margin-top: 150px;
   gap: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-left: 155px;
+  
 }
 
 .extra{
-  margin: 50px;
+  margin: 30px;
   padding: 10px;
   border-radius: 5px;
   background: #FFF;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);    
 }
 
+.extra-head {
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 250px;
+  border-radius: 8px;
+  background: rgba(244, 144, 61, 0.427); 
+  width: 50%;
+  margin-left: 400px;
+}
 .extra img{
-  width: 500px;
+  width: 400px;
   height: 400px;
-  margin-left: 55px;
-  border-radius: 60%;
+  margin-left: 50px;
+  border-radius: 50%;
  
 }
 .extra-title {
@@ -500,6 +549,17 @@ img{
   font-weight: 800;
   line-height: normal;
 }
+
+.extra-below{
+  color: #d76b0c;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
 .extra-description{
   text-align: center;
 }
