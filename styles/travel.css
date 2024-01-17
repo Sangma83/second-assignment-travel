@@ -564,14 +564,11 @@ img{
   text-align: center;
 }
 
-/* .review {
-  text-align: center;
-} */
-
 /* newsletter styles */
 
 .newsletter {
-    display: flex;
+    display: grid;
+    grid-template-columns: 400px 600px;
     background: #FFF;
     margin-top: 100px;
     padding: 130px 200px;
@@ -589,24 +586,76 @@ img{
     border: 0;
     width: 100%;
     background: rgba(19, 19, 24, 0.05);
+    margin-top: 20px;
 }
+
 
 .newsletter-section input[type="submit"] {
     display: block;
     margin-bottom: 25px;
-    padding: 18px 35px;
+    padding: 18px 50px;
     border-radius: 5px;
     border: 0;
-    width: 100%;
+    width: 118%;
+    height: 50px;
     
+}
+
+.newsletter-section-image {
+  width: 675px;
+  height: 425px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background:  lightgray 55% / cover no-repeat;
+}
+.newsletter-section-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.newstext-option {
+  border-radius: 16px;
+  background:  #FF5400;
+  position: relative;
+  top: -300px;
+  bottom: 1000px;
+  left: 900px;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 280px;
+  height: 120px;
+  transform: rotate(-30.628deg);
+  flex-shrink: 0;
+  float: right;
+  
+}
+.newstext-option h1{
+  color: #FFF;
+font-family: Mulish;
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.newstext-option h4{
+  color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 
 /* footer styles */
 
 footer {
   background: rgba(19, 19, 24, 0.05);
-  width: 100%;
-  height: 200%;
+  width: 95%;
+  height: 500%;
+  padding: 40px;
 
 }
 
@@ -616,6 +665,7 @@ footer {
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  padding: 6 0px;
 }
 
 .footer-logo{
@@ -653,11 +703,12 @@ footer {
 }
 
 .footer-column {
-  background: rgba(19, 19, 24, 0.05);
-  width: 100vw;
-  padding: 20px 0;
+  background: rgba(19, 19, 24, 0.05);;
+  width: 100%;
   text-align: center;
 }
+
+
 
 
 /* Responsive styles */
