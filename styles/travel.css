@@ -747,15 +747,20 @@ footer {
     right: 0;
   }
 
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
   .image-container img {
-    /* display: block; */
-    width: 100%;
     height: 700px;
     padding: 15px;
   }
   
   .overlay {
-    margin-left: 20px;
+    margin-left: 3px;
+    margin-top: 8px;
   }
   .overlay h1{
     font-size: 25px;
@@ -807,6 +812,17 @@ form #find-me {
 }
 
 .popular-section ul > li {
+  padding: 20px;
+}
+
+.section-description, .section-title {
+  width: 100%;
+  padding: 18px;
+}
+
+.popular-section img{
+  width: 100%;
+  height: 400px;
   padding: 20px;
 }
 }
