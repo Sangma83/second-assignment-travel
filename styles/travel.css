@@ -571,6 +571,7 @@ img{
     margin-top: 100px;
     padding: 130px 200px;
     gap: 100px;
+    max-width: 100%;
     
 }
 
@@ -924,10 +925,95 @@ form #find-me {
 
 .extra-head {
   position: relative;
-  right: 280px;
+  right: 270px;
   top: 40px;
   font-size: 30px;
   max-width: 90%;
 }
 
+/* newsletter section */
+
+.newsletter {
+  grid-template-columns: 1fr;
+  padding: 10px;
+  max-width: 500px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 30px;
+ 
+}
+
+.newsletter-section-image{
+width: 90%;
+}
+
+.newsletter-section input[type="text"], .newsletter-section input[type="email"] {
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  color: #757575;
+  border-radius: 5px;
+  background:#FFF;
+  border: 0;
+  width: 80%;
+  background: rgba(19, 19, 24, 0.05);
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+
+.newsletter-section input[type="submit"] {
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 50px;
+  border-radius: 5px;
+  border: 0;
+  width: 98%;
+  height: 50px;
+  margin-left: 5px;
+ 
+  
+}
+
+.newstext-option {
+border-radius: 16px;
+background: #ff5400;
+position: relative;
+left: 200px;
+top: -550px;
+display: block;
+justify-content: center;
+text-align: center;
+align-items: center;
+width: 260px;
+height: 80px;
+transform: rotate(-36.628deg);
+flex-shrink: 0;
+padding-top: 10px;
+margin-top: 285px;
+float: left;
+}
+.newstext-option h4 {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+}
+.newstext-option h1 {
+  color: #fff;
+  font-size: 22px;
+}
+
+
+/* footer section */
+
+
+footer {
+  background: rgba(19, 19, 24, 0.05);
+  max-width: 90%;
+  height: 500%;
+  padding: 20px;
+  margin: 0 auto;
+
+}
 }
