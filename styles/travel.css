@@ -8,6 +8,7 @@
   /* common shared family */
 body{
     font-family: 'Mulish', sans-serif;
+    box-sizing: border-box;
     }
     
     .text-primary{
@@ -284,7 +285,6 @@ form .find-text {
     align-items: center; 
     height: 80%; 
     margin-bottom: 50px;
-    /* margin: 0 auto; */
 }
 
 .choose h3 {
@@ -483,10 +483,6 @@ img{
 }
 
 .why-special-why {
-    position: absolute;
-    margin-top: 280px;
-    width: 80vh;
-    margin-left: 280px;
     padding: 30px;
     border-radius: 5px;
     background: #FFF;
@@ -494,6 +490,8 @@ img{
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05); 
+    position: relative;
+    left: 310px;
 }
 
 
@@ -730,8 +728,8 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 80%;
-    height: 90vh;
+    width: 60%;
+    height: 50vh;
     position: fixed;
     top: 0;
     right: -100%;
@@ -795,7 +793,7 @@ form #find-me {
   position: absolute;
   top: 270px;
   transform: translateX(-10%);
-  right: 170px;
+  right: 150px;
 }
 
 .popular {
@@ -804,7 +802,8 @@ form #find-me {
   justify-content: center;
   align-items: center;
   display: block;
-  width: 500px;
+  width: 600px;
+  margin-left: 20px;
 }
 
 .popular-section {
@@ -812,17 +811,123 @@ form #find-me {
 }
 
 .popular-section ul > li {
+  padding: 25px;
+}
+
+.popular-section .section-description{
   padding: 20px;
 }
 
 .section-description, .section-title {
-  width: 100%;
-  padding: 18px;
+  width: 80%;
+  padding: 8px;
 }
 
 .popular-section img{
-  width: 100%;
-  height: 400px;
-  padding: 20px;
+  width: 80%;
+  padding: 5px;
+ 
 }
+
+.popular-section h3{
+  font-size: 30px;
+}
+
+
+.row-1{
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+  margin-bottom: 20px;
+  gap: 15px;
+  width: 95%;
+  padding: 5px;
+  
+}
+
+.row-2{
+  grid-template-columns: 1fr;
+  grid-gap: 5px;
+  width: 95%;
+  padding: 8px;
+  
+  
+}
+
+.choose h3 {
+  font-size: 30px;
+}
+
+.centered {
+  top: 355%;
+  left: 36%;
+}
+
+.centered-2 {
+  top: 396%;
+  left: 36%;
+}
+.centered-3 {
+  top: 442%;
+  left: 40%;
+}
+.centered-4 {
+  top: 488%;
+  left: 34%;
+}
+.centered-5 {
+  top: 540%;
+  left: 39%;
+}
+.centered-6 {
+  top: 590%;
+  left: 38%;
+}
+.centered-7 {
+  top: 628%;
+  left: 37%;
+}
+
+/* why section */
+
+.choose-us h3{
+  font-size: 30px;
+}
+
+
+.why-container{
+  grid-template-columns: 1fr;
+  width: 80%;
+  padding: 5px;
+  margin: 0 auto;
+  
+}
+
+.why-special-why {
+  position: absolute;
+  width: 66%; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, 2380%);
+  padding: 33px;
+}
+
+/* extra site */
+
+.extra-container {
+  grid-template-columns: 1fr;
+  box-sizing: content-box;
+  max-width: 40%;
+  padding: auto;
+ 
+ 
+}
+
+.extra-head {
+  position: relative;
+  right: 280px;
+  top: 40px;
+  font-size: 30px;
+  max-width: 90%;
+}
+
 }
